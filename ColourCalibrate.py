@@ -9,6 +9,7 @@ while(True):
     #print(frame.shape)
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     blur = cv2.GaussianBlur(hsv,(15,15),0)
+    //blur
 
     low_yellow = np.array([20, 110, 180 ])
     high_yellow = np.array ([50, 200, 230])
